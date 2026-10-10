@@ -112,8 +112,8 @@
   /* QUOTES */
   .quotes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:clamp(24px,3vw,40px)}
   @media (max-width:760px){.quotes{grid-template-columns:1fr}}
-  .quote{margin:0;padding:clamp(24px,3vw,36px);border-radius:20px;background:var(--card);border:1px solid var(--line);display:flex;flex-direction:column;gap:20px}
-  .quote blockquote{margin:0;font-size:clamp(20px,1.8vw,24px);font-weight:400;line-height:1.35;letter-spacing:-.015em}
+  .quote{margin:0;padding:clamp(24px,3vw,36px);border-radius:20px;background:var(--card);border:1px solid var(--line);display:flex;flex-direction:column;justify-content:space-between;gap:24px}
+  .quote blockquote{margin:0;font-size:clamp(18px,1.5vw,21px);font-weight:400;line-height:1.5;letter-spacing:-.01em;color:#E5E5E5}
   .quote figcaption{font-size:14px;color:var(--m)}
 
   /* NEXT + FOOTER */
@@ -333,13 +333,13 @@
     </div>
   </section>
 
-  <!-- WHAT THE TEAM SAID (placeholders until the real quotes arrive) -->
+  <!-- WHAT THE TEAM SAID -->
   <section class="sec">
     <div class="wrap">
       <h2>What the team said<span class="dot" aria-hidden="true"></span></h2>
       <div class="quotes">
-        <figure class="quote"><blockquote>"[QUOTE 1]"</blockquote><figcaption>— [Name], [Role], Craftstudioo</figcaption></figure>
-        <figure class="quote"><blockquote>"[QUOTE 2]"</blockquote><figcaption>— [Name], [Role], Craftstudioo</figcaption></figure>
+        <figure class="quote"><blockquote>“The website looks great, man. It presents our agency really well and makes our work feel more professional. And bringing in 6 clients in our first month is a solid achievement. I think the way you've presented our services has made a real difference.”</blockquote><figcaption>— Video Editor, Craftstudioo</figcaption></figure>
+        <figure class="quote"><blockquote>“Honestly, you've done a great job with the website. It's clean, informative, and easy to understand. What I appreciate most is that your work has gone beyond design. Getting 6 clients in our first month is a great start for us, and you've played a big part in that.”</blockquote><figcaption>— Developer, Craftstudioo</figcaption></figure>
       </div>
     </div>
   </section>
